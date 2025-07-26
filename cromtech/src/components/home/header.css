@@ -1,28 +1,36 @@
-/* src/components/Navbar.css */
 
+ .header {
+  display: flex;
+  gap :20px;
+  font-size: 15px;
+  padding-left: 1090px;;
+ border-top: 3px solid #00a7c6;
+  background-color: rgba(240, 247, 255, 0.893);
+ }
+ .contact-info i{
+  
+  margin:6px;
+  gap:10px;
+
+ }
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #ffffff;
+  background-color: #fff;
   border-bottom: 2px solid #00a7c6;
+  font-family: sans-serif;
+  height: 90px;
+  position: relative;
   
 }
 
 .navbar-left {
   display: flex;
   align-items: center;
-  padding-left: 50px;
-}
-
-.logo {
-  width: 50px;
-  margin-right: 10px;
-}
-
-.brand-name {
-  font-size: 1.5rem;
+    font-size: 1.5rem;
+    padding-left: 40px;  
 }
 
 .cromtek {
@@ -30,22 +38,7 @@
 }
 
 .solutions {
-  color: #1d1b40;
-}
-
-.navbar-right {
-  text-align: right;
-}
-
-.contact-info {
-  font-size: 0.9rem;
-  margin: 4px;
-
-  padding-left: 71.5%;
-  gap: 5px;
-  font-size: 1rem;
-  display: flex ;
-
+  color: #1d1b40; 
 }
 
 .nav-links {
@@ -56,19 +49,23 @@
 .nav-links a {
   color: #333;
   text-decoration: none;
-  font-weight: 500;
-  font-size: 0.95rem;
+  font-weight: 100;
+  font-size: 0.90rem;
 }
 
 .nav-links a:hover {
   color: #00a7c6;
+  border-left: 2px solid #00a7c6;
+  padding-left: 5px;
 }
+
 .menu-toggle {
   display: none;
-  font-size: 1rem;
+  font-size: 1.8rem;
   cursor: pointer;
   color: #1d1b40;
 }
+
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
@@ -76,6 +73,7 @@
 
   .navbar {
     flex-wrap: wrap;
+    padding: 10px 20px;
   }
 
   .navbar-right {
@@ -90,9 +88,6 @@
     display: flex;
   }
 
-  .contact-info {
-    padding: 5px 0;
-  }
 
   .nav-links {
     flex-direction: column;
@@ -101,6 +96,42 @@
   }
 
   .nav-links a {
-    padding: 5px 0;
+    padding: 6px 0;
+    font-size: 1rem;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .logo {
+    width: 40px;
+  }
+
+  .brand-name {
+    font-size: 1.1rem;
+  }
+
+  .nav-links a {
+    font-size: 0.95rem;
+  }
+}
+
+
+@media (max-width: 360px) {
+  .navbar {
+    padding: 10px 15px;
+  }
+
+  .brand-name {
+    font-size: 1.5rem;
+  }
+
+  .contact-info {
+    font-size: 0.75rem;
+    ;
+  }
+
+  .nav-links a {
+    font-size: 0.85rem;
   }
 }

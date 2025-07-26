@@ -6,15 +6,15 @@ export default function Header(){
     const [menuOpen, setMenuOpen] = useState(false);
     return(
         <>
-     <section classname='header'>
+     <section className="header">
          <div className="contact-info">
           <i class="fa-brands fa-linkedin"></i>
           <i class="fa-brands fa-square-instagram" ></i>
-          <i class="fa fa-envelope-o"></i>
+          
           <span style={{color: '#00a7c6'}}> cromtek@cromteksolutions.info</span>
-          <i class="fa fa-phone"></i>
-           +91 8168616807
-        
+        </div>
+        <div className="contact-info">
+          <i class="fa fa-phone">  </i>+91 8168616807 
         </div>
      </section>
     <section className="navbar">

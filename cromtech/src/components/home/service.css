@@ -1,0 +1,81 @@
+.service-heading{
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  color: rgb(48, 46, 46);
+}
+.service i{
+color: #33afcb;
+font-size: 24px;
+
+}
+.star-line {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.star-line .line {
+  display: inline-block;
+  height: 1px;
+  width: 80px; 
+  background: #00a7c6; 
+  border-radius: 2px;
+}
+.service-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 30px 0;
+ 
+}
+
+.card {
+  background: #fff;
+  color: rgb(54, 54, 50);
+  border-radius: 3px;
+  padding: 20px;
+   border-right: #a9b0b3 1px solid;
+  text-align: center;
+}
+.card h3{
+    font-size: 25px;
+   margin-bottom: 30px; 
+}
+.card p{
+ text-align: justify;
+  
+}
+.card a{
+    text-decoration: none;
+    color: #00a7c6;
+     display: block;
+    text-align: right;
+    
+}
+.card:hover{
+ transform: scale(1.05);
+ 
+}
+.card-title-row {
+  display: flex;
+  align-items: center;
+    gap : 30px;
+}
+
+.circle-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #3cd4ca;
+  border: solid 2px #00a7c6;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
