@@ -1,0 +1,49 @@
+.project-header{
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  color: rgb(48, 46, 46);
+}
+.projects{
+     background-color: rgba(240, 247, 255, 0.893) ;
+     
+}
+.projects i{
+color: #33afcb;
+font-size: 24px;
+
+}
+.star-line {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.star-line .line {
+  display: inline-block;
+  height: 1px;
+  width: 80px; 
+  background: #00a7c6; 
+  border-radius: 2px;
+}
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  padding: 30px 0;
+ 
+}
+.project-card {
+  border-radius: 3px;
+  padding: 20px;
+  
+}
+.project-card img{
+    width: 100%;
+    height: 150px;
+    border-radius: 3px;
+
+}

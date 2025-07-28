@@ -28,7 +28,7 @@ export default function Service(){
             <div className='card'>
                 <div className="card-title-row">
             <span className="circle-icon">
-            <i className="fa fa-mobile"></i>
+            <i className="fa fa-globe"></i>
             </span>   
             <h3>Web Development</h3>
             </div>
@@ -38,7 +38,7 @@ export default function Service(){
              <div className='card'>  
                 <div className="card-title-row">
             <span className="circle-icon">
-            <i className="fa fa-mobile"></i>
+            <i className="fa fa-cogs"></i>
             </span> 
             <h3>Custom ERP Solutions</h3>
             </div>
@@ -48,7 +48,7 @@ export default function Service(){
              <div className='card'> 
                 <div className="card-title-row">
             <span className="circle-icon">
-            <i className="fa fa-mobile"></i>
+            <i className="fa fa-industry"></i>
             </span>  
             <h3>Enterprise solution</h3>
             </div>
@@ -58,7 +58,7 @@ export default function Service(){
              <div className='card'>  
                 <div className="card-title-row">
             <span className="circle-icon">
-            <i className="fa fa-mobile"></i>
+            <i className="fa fa-wrench"></i>
             </span> 
             <h3>Maintenance And Support</h3>
             </div>
@@ -68,7 +68,7 @@ export default function Service(){
              <div className='card'> 
                 <div className="card-title-row">
             <span className="circle-icon">
-            <i className="fa fa-mobile"></i>
+            <i className="fa fa-signal"></i>
             </span>  
             <h3>IT Advisory Services</h3>
             </div>
@@ -78,7 +78,7 @@ export default function Service(){
              <div className='card'>   
                 <div className="card-title-row">
             <span className="circle-icon">
-            <i className="fa fa-mobile"></i>
+            <i className="fa fa-plane"></i>
             </span>
             <h3>Business Process</h3>
             </div>
@@ -88,7 +88,7 @@ export default function Service(){
              <div className='card'>   
                 <div className="card-title-row">
             <span className="circle-icon">
-            <i className="fa fa-mobile"></i>
+            <i className="fa fa-infinity"></i>
             </span>
             <h3>Governance And Compliances </h3>
             </div>
@@ -98,7 +98,7 @@ export default function Service(){
             <div className='card'>
                 <div className="card-title-row">
             <span className="circle-icon">
-            <i className="fa fa-mobile"></i>
+            <i className="fa fa-pencil"></i>
             </span>
             <h3>Resource Augmentations </h3>
             </div>

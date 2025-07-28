@@ -1,0 +1,63 @@
+.service-bottom {
+    display: flex;
+    gap: 80px;
+    padding: 40px;
+    background-color: rgba(240, 247, 255, 0.893) ;
+}
+.service-bottom-image {
+    width: 50%;
+    height: 70%;
+    
+}
+.bottomcontent {
+    display: flex;
+   gap: 30px;
+   height: 30%;
+   align-items: center;
+   
+}
+.circleicon{
+    width: 130px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    border: rgb(27, 26, 26) solid 2px;
+    justify-content: center;
+    align-items: center;
+}
+.circleicon i{
+    font-size: 20px;
+    color: rgb(41, 38, 38);
+}
+.para h3{
+    font-size: 20px;
+    color: rgb(42, 40, 40);
+    font-weight: 500;
+
+}
+.para p{
+    font-size: 17px;
+    color: rgb(107, 100, 100);
+    font-weight: 400;
+    line-height: 20px;
+}
+.leftline{
+    display: inline-block;
+    height: 1px;
+    width: 350px; 
+    background-color: rgb(118, 107, 107);
+    border-radius: 2px;
+}
+.leftline {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.leftline i {
+  font-size: 20px;
+  color: rgb(118, 107, 107);
+}
+.bottomcontent:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
