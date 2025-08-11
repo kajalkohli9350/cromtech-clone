@@ -84,3 +84,32 @@ font-size: 24px;
   font-size: 20px;
   color: #00a7c6;
  }
+
+ /* Tablet: 1 card per row */
+@media (max-width: 813px) {
+  .service-cards {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding: 20px 0;
+  }
+  .card {
+    padding: 16px;
+    margin: 0 auto;
+    max-width: 95vw;
+  }
+}
+
+/* Mobile: 1 card per row, smaller padding */
+@media (max-width: 587px) {
+  .service-cards {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 10px 0;
+  }
+  .card {
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 98vw;
+    font-size: 0.95rem;
+  }
+}

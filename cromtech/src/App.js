@@ -1,3 +1,4 @@
+import React from 'react';
 import './app.css'
 import {BrowserRouter,Routes,Route} from'react-router-dom';
 import Home from './pages/home/Home';
@@ -8,12 +9,10 @@ import Ecommerce from './pages/ecommerce/ecommerce';
 import Solutions from './pages/solutions/Solutions';
 import Mobility from './pages/mobility/Mobility';
 
-
 function App() {
   return (
     <>
     <BrowserRouter>
-    
     <Routes>
     <Route path="/" element={<Home />}/>
     <Route path='about' element={<About/>}/>

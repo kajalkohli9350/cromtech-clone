@@ -9,6 +9,7 @@ function Home(){
     return(
         <>
         <Header />
+        
         <Content />
         <Service/>
         <Servicebottom/>
